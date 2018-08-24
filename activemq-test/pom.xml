@@ -18,7 +18,6 @@
 	</properties>
 
 	<dependencies>
-
 		<!-- spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -45,7 +44,18 @@
 			<artifactId>spring-jms</artifactId>
 			<version>${spring.framework}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${spring.framework}</version>
+		</dependency>
 
+		<!-- xbean 如<amq:connectionFactory /> -->
+		<dependency>
+			<groupId>org.apache.xbean</groupId>
+			<artifactId>xbean-spring</artifactId>
+			<version>4.4</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.apache.activemq</groupId>

@@ -1,0 +1,9 @@
+如下4中转发器类型标签
+
+rabbit:fanout-exchange
+
+rabbit:direct-exchange
+
+rabbit:topic-exchange
+
+rabbit:headers-exchange

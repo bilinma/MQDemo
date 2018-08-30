@@ -14,7 +14,9 @@ import kafka.consumer.KafkaStream;
 import kafka.javaapi.consumer.ConsumerConnector;
 
 /**
- * @author leicui bourne_cui@163.com
+ * 
+ * @author xiaobin.ma
+ *
  */
 public class KafkaConsumer2 extends Thread {
 	private final ConsumerConnector consumer;

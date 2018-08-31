@@ -17,6 +17,7 @@
 	<rabbit:queue name="spring.fanout.test1" durable="true" auto-delete="false" exclusive="false"  />
 	<rabbit:queue name="spring.fanout.test2" durable="true" auto-delete="false" exclusive="false"  />
 
+	<!-- 直接将消息路由到所有绑定的队列中，无须对消息的routingkey进行匹配操作 -->
 	<rabbit:fanout-exchange name="spring.fanout.exchange" durable="true">
         <rabbit:bindings>
             <rabbit:binding queue="spring.fanout.test1" />

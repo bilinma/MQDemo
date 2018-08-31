@@ -17,7 +17,7 @@
 	<rabbit:queue name="spring.topic.test1" durable="true" auto-delete="false" exclusive="false"  />
 	<rabbit:queue name="spring.topic.test2" durable="true" auto-delete="false" exclusive="false"  />
 
-    <!--配置topic类型exchange-->
+    <!--配置topic类型exchange  routingkey可以有通配符：'*','#'.其中'*'表示匹配一个单词， '#'则表示匹配没有或者多个单词-->
     <rabbit:topic-exchange name="spring.topic.exchange" durable="true">
         <rabbit:bindings>
             <rabbit:binding queue="spring.topic.test1" pattern="spring.topic.test1.*" />

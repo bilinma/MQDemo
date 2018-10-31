@@ -1,4 +1,4 @@
-package com.ucloudlink.kafka;
+package com.bilin.kafka;
 
 import java.util.Map;
 

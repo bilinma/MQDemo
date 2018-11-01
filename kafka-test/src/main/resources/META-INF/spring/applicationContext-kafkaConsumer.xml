@@ -35,7 +35,7 @@
      </bean>
      
      <!-- 实际执行消息消费的类 -->
-     <bean id="kafkaConsumerListener" class="com.ucloudlink.kafka.spring.config.KafkaConsumerListener"/>
+     <bean id="kafkaConsumerListener" class="com.bilin.kafka.spring.config.KafkaConsumerListener"/>
      
      <!-- 消费者容器配置信息 -->
      <bean id="containerProperties_trade" class="org.springframework.kafka.listener.config.ContainerProperties">

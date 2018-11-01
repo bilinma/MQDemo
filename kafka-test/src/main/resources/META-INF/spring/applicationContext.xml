@@ -9,7 +9,7 @@
                         http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
 	<context:property-placeholder location="classpath:kafka.properties" ignore-unresolvable="true"/> 
-	<context:component-scan base-package="com.ucloudlink.kafka.spring.config" />
+	<context:component-scan base-package="com.bilin.kafka.spring.config" />
 	<!-- 引入同文件夹下的redis属性配置文件 -->
 	<import resource="applicationContext-kafkaConsumer.xml" />
 	<import resource="applicationContext-kafkaProducer.xml" />

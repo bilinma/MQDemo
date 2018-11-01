@@ -3,7 +3,7 @@ package com.bilin.kafka;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.kafka.core.KafkaTemplate;
 
-import com.ucloudlink.kafka.common.DateUtil;
+import com.bilin.kafka.common.DateUtil;
 public class KafkaTest {
  
     public static void main(String[] args){

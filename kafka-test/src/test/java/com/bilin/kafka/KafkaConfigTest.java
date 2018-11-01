@@ -11,7 +11,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.ucloudlink.kafka.spring.config.KafkaProducerServer;
+import com.bilin.kafka.spring.config.KafkaProducerServer;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)

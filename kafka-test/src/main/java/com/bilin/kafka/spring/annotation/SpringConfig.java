@@ -6,7 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @PropertySource("classpath:kafka.properties")
-@ComponentScan(basePackages={"com.ucloudlink.kafka.spring.annotation"})
+@ComponentScan(basePackages={"com.bilin.kafka.spring.annotation"})
 public class SpringConfig {
 
 }
